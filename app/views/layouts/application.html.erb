@@ -7,9 +7,47 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/[任意の文字列で生成].js" crossorigin="anonymous"></script>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
 
   <body>
+    <header>
+  <div class = "container header-group">
+    <div class = "row">
+      <div class = "col-md-2">
+      <a href = "#1">
+       <%= image_tag'logo.png', :size => '150x70' %>
+      </a>
+      </div>
+      <div class = "box col-md-4"></div>
+      <nav>
+        <ul class = "nav col-md-4 mx-auto">
+          <li class = "nav-item">
+            <a href = "#1">Portfolio</a>
+          </li>
+          <li class = "nav-item">
+            <a href = "#2">Feature</a>
+          </li>
+          <li class = "nav-item">
+            <a href = "#3">Profile</a>
+          </li>
+          <li class = "nav-item">
+            <a href = "#4">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
     <%= yield %>
+
+<footer class = "footer">
+  <div class = "container footer-group">
+    <p>©︎2017 WebCamp</p>
+  </div>
+</footer>
+
   </body>
 </html>

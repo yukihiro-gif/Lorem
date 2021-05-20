@@ -1,37 +1,22 @@
-<header>
-  <div class = "container header-group">
-    <div class = "row">
-      <div class = "col-md-2">
-       <%= link_to image_tag('logo.png'), :size => '42x60' %>
-      </div>
-      <div class = "box col-md-4"></div>
-      <nav>
-        <ul class = "nav col-md-4 mx-auto">
-          <li class = "nav-item">Portfolio</li>
-          <li class = "nav-item">Feature</li>
-          <li class = "nav-item">Profile</li>
-          <li class = "nav-item">contact</li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
 
+
+<div id = "1">
 <div class = "container mainvisual-1">
   <h1 class = "mv-title">Lorem Ipsum</h1>
   <p class = "mv-text">simply dummy text of the printing</p>
 </div>
+</div>
+<div id = "2">
 <div class = "container mainvisual-2">
-  <div class = "profile-text">
-    <h1 class = "profile-title">Portfolio</h1>
-    <div class "border"></div>
-    <p class = "profile-body">
+  <div class = "portfolio-text">
+    <h1 class = "portfolio-title">Portfolio</h1>
+    <p class = "portfolio-body">
       It is a long established fact that a reader will be distracted by the readable</br>
       content of a page when looking at its layout.</br>
       The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</br>
     </p>
   </div>
-  <div class = "profile-image">
+  <div class = "portfolio-image">
     <div class = "image-box">
       <%= image_tag "sketch.jpg", class: "image" %>
       <%= image_tag "websuku.png", class: "image" %>
@@ -44,10 +29,12 @@
     </div>
   </div>
 </div>
+</div>
+<div id = "3">
 <div class = "container mainvisual-3">
   <div class = "feature-text">
     <h1 class = "feature-title">Feature</h1>
-    <p class = "fearure-body">
+    <p class = "feature-body">
       It is a long established fact that a reader will be distracted by the readable</br>
       content of a page when looking at its layout.</br>
       The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
@@ -55,6 +42,7 @@
   </div>
   <div class = "feature-box0">
     <div class = "feature-box">
+      <i class="fal fa-code fa-4x"></i>
       <h3 class = "title">Strength1</h3>
       <p class = "body">
         Contrary to popular belief, Lorem Ipsum</br>
@@ -68,6 +56,7 @@
       </p>
     </div>
     <div class = "feature-box">
+      <i class="fas fa-tv fa-4x"></i>
       <h3 class = "title">Strength2</h3>
       <p class = "body">
         Contrary to popular belief, Lorem Ipsum</br>
@@ -81,6 +70,7 @@
       </p>
     </div>
     <div class = "feature-box">
+      <i class="fas fa-cogs fa-4x"></i>
       <h3 class = "title">Strength3</h3>
       <p class = "body">
         Contrary to popular belief, Lorem Ipsum</br>
@@ -95,12 +85,71 @@
     </div>
   </div>
 </div>
-<div class = "container mainvisual-4">4</div>
-<div class = "container mainvisual-5">5</div>
-
-
-<footer>
-  <div class = "container footer-group">
-    <p>©︎2017 WebCamp</p>
+</div>
+<div id = "4">
+<div class = "container mainvisual-4">
+  <div class = "profile-text0">
+    <div class = "profile-title">
+     <h1>Profile</h1>
+    </div>
+    <div class = "profile-text">
+     <p>It is a long established fact that a reader will be distracted by the readable</br>
+        content of a page when looking at its layout.</br>
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+     </p>
+    </div>
+  <div class = "profile-mainvisual">
+    <div class = "profile-image">
+      <%= image_tag'my-icon.jpg', :size => "250x250" %>
+    </div>
+    <div class = "profile-image-text">
+      <h1 class = "profile-username">MyName</h1>
+      <p class = "profile-usertext">
+        Contrary to popular belief, Lorem Ipsum is not simply random</br>
+        text. It has roots in a piece of classical Latin literature from 45</br>
+        BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+        professor at Hampden-Sydney College in Virginia, looked up</br>
+        one of the more obscure Latin words, consectetur
+      </p>
+      <h1 class = "profile-userskill">MySkills</h1>
+      <p class = "profile-userskill-text">
+        HTML/CSS,JavaScript,JQuery,PhotoShop
+      </p>
+    </div>
   </div>
-</footer>
+  </div>
+</div>
+</div>
+<div id = "5">
+<div class = "container mainvisual-5">
+  <div class = "contact-text">
+   <div class = "contact-title">
+    <h1>Contact</h1>
+   </div>
+   <div class = "contact-body">
+    <p>
+      It is a long established fact that a reader will be distracted by the readable</br>
+      content of a page when looking at its layout.</br>
+      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+    </p>
+   </div>
+  <div class = "contact-icon">
+    <div class = "user-information">
+      <div class = "user-a">
+      <h1 class = "mail">Mail</h1>
+      <p class = "adress">xxx@xxx.com</p>
+      <h1 class = "tel">Tel</h1>
+      <p class = "number">000-0000-0000</p>
+      </div>
+    </div>
+    <div class = "sns-icon">
+      <h1 class = "SNS">SNS</h1>
+      <i class="fab fa-facebook-f fa-4x"></i>
+      <i class="fab fa-twitter fa-4x"></i>
+      <i class="fab fa-instagram fa-4x"></i>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
